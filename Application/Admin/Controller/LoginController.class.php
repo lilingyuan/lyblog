@@ -12,6 +12,7 @@ use Think\Controller;
 
 class LoginController extends Controller{
     public function login(){
+        echo 555;die;
         $this->display();
     }
 }
