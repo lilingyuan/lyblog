@@ -98,6 +98,3 @@ class CategoryController extends AdminBaseController{
 
 
 }
-
-buzhidaoxieshenme,doubuhui
-    每天都git没用的东西，也是很心累的啊
