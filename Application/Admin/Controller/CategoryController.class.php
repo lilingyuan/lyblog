@@ -83,7 +83,15 @@ class CategoryController extends AdminBaseController{
 
     }
 
-2017.06.07修改    
+2017.06.08修改    
+ public function delete(){
+        if($this->db->deleteData()){
+            $this->success('删除成功');
+        }else{
+            $this->error($this->db->getError());
+        }
+
+    }
 
 
 }
